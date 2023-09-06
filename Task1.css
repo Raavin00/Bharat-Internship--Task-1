@@ -1,0 +1,95 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #ffffff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+}
+header {
+    background-color: #0078d4;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+h1, h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #333;
+}
+.content-card {
+    background-color: #fff;
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.content-card h3 {
+    margin-top: 0;
+    color: #333;
+    font-size: 1.5rem;
+}
+
+.content-card p {
+    margin-bottom: 1rem;
+    color: #555;
+}
+.uploaded-content {
+    display: block;
+    margin: 1rem auto;
+    max-width: 100%;
+}
+
+.input-card {
+    margin-top: 20px;
+}
+
+.input-row {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.input-row label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+.input-card button {
+    cursor: pointer;
+    align-self: center;
+    background-color: #0078d4;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.input-card button:hover {
+    background-color: #005a9e;
+}
+@media screen and (max-width: 600px) {
+    .container {
+        padding: 1rem;
+    }
+
+    .content-card {
+        padding: 15px;
+    }
+}
